@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css", rel="stylesheet")
+    title Mis Proyectos
+    link(rel="stylesheet", href="/css/proyectos.css")
+
+  body
+
+    .container.mt-5
+      h2.mb-4 Mis Proyectos
+      .row
+        .col-lg-8.offset-lg-2
+          .project-item
+            p.year 2021
+            h4.project-title Desarrollo de un Asistente Virtual Avanzado
+            p.project-description
+              | Desarrollé un asistente virtual avanzado que utiliza inteligencia artificial para ayudar a los usuarios en diversas tareas. El asistente es capaz de responder preguntas, proporcionar recomendaciones personalizadas y realizar tareas específicas según las necesidades del usuario.
+
+          .project-item
+            p.year 2022
+            h4.project-title Optimización de Procesos con Automatización Robótica
+            p.project-description
+              | Implementé un sistema de automatización robótica que optimiza procesos en una empresa. Utilizando robots, logramos reducir el tiempo y los recursos necesarios para completar tareas repetitivas y mejorar la eficiencia operativa de la organización.
+
+          .project-item
+            p.year 2023
+            h4.project-title Desarrollo de un Drone de Entrega Autónomo
+            p.project-description
+              | Lideré el desarrollo de un drone de entrega completamente autónomo. El drone es capaz de transportar paquetes y entregarlos de forma segura a destinos predeterminados. Implementamos tecnologías de navegación avanzada y sistemas de seguridad para garantizar un servicio de entrega eficiente y confiable.
+
+      .text-center.back-button
+        a.btn.btn-primary(href="/") Volver a la Página de Inicio

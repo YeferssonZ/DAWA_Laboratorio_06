@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css", rel="stylesheet")
+    title Mis Habilidades como Robot
+    link(rel="stylesheet", href="/css/habilidades.css")
+
+  body
+
+    .container.mt-5
+      .center-content
+        h2.mb-4 Mis Habilidades
+
+        .skill-box
+          .skill-category Desarrollo Web
+          ul.skill-list
+            li.skill-list-item HTML
+            li.skill-list-item CSS
+            li.skill-list-item JavaScript
+            li.skill-list-item PHP
+            li.skill-list-item Python
+            li.skill-list-item Frameworks de Frontend: React, Angular, Vue.js
+            li.skill-list-item Frameworks de Backend: Express.js, Django, Flask
+
+        .skill-box
+          .skill-category Base de Datos
+          ul.skill-list
+            li.skill-list-item MySQL
+            li.skill-list-item MongoDB
+            li.skill-list-item SQLite
+            li.skill-list-item PostgreSQL
+
+        .skill-box
+          .skill-category Otros Lenguajes
+          ul.skill-list
+            li.skill-list-item Java
+            li.skill-list-item C++
+            li.skill-list-item Ruby
+            li.skill-list-item Swift
+            li.skill-list-item TypeScript
+
+      .text-center.back-button
+        a.btn.btn-primary(href="/") Volver a la Página de Inicio
